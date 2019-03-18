@@ -1,0 +1,48 @@
+{
+  "name": "wix-telemetry-appengine-loggly",
+  "description": "wix-code telemetry sink example for loggly on appengine",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wix-incubator/wix-telemetry-appengine-loggly"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "app"
+  ],
+  "author": {
+    "name": "San Golan",
+    "email": "sang@wix.com"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules package-lock.json",
+    "start": "node app/index.js",
+    "test": "jest",
+    "posttest": "npm run lint",
+    "lint": "eslint .",
+    "deploy": "gcloud app deploy"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.2",
+    "eslint-config-google": "^0.12.0",
+    "jest": "^24.0.0",
+    "nock": "^10.0.6"
+  },
+  "cloud-repo-tools": {
+    "test": {
+      "app": {
+        "msg": "Hello, world!"
+      }
+    },
+    "requiresKeyFile": true,
+    "requiresProjectId": true
+  }
+}
