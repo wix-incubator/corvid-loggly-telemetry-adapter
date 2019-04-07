@@ -1,6 +1,6 @@
 # corvid telemetry sink example for loggly on GAE
 
-[![Build Status](https://travis-ci.org/wix-incubator/wix-telemetry-appengine-loggly.svg?branch=master)](https://travis-ci.org/wix-incubator/wix-telemetry-appengine-loggly)
+[![Build Status](https://travis-ci.org/wix/corvid-loggly-telemetry-adapter.svg?branch=master)](https://travis-ci.org/wix/corvid-loggly-telemetry-adapter)
 
   - [Setup](#setup)
   - [Development](#development)
@@ -16,7 +16,7 @@
 
 - Install Node v10 (currently v10.15.3)
 - Install git
-- `$ git clone https://github.com/wix-incubator/wix-telemetry-appengine-loggly.git`
+- `$ git clone https://github.com/wix-incubator/wix/corvid-loggly-telemetry-adapter.git`
 - `$ cd wix-telemetry-appengine-loggly`
 - Follow GCP instructions for [creating a google app engine standard environment for node.js](https://cloud.google.com/appengine/docs/standard/nodejs/quickstart).
 - [Set up authentication for loggly over http](https://www.loggly.com/docs/token-based-api-authentication/) by adding a `secret.json` with the following format: 

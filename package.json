@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/wix-incubator/wix-telemetry-appengine-loggly"
+    "url": "https://github.com/wix/corvid-loggly-telemetry-adapter"
   },
   "engines": {
     "node": ">=10"
