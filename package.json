@@ -1,6 +1,6 @@
 {
-  "name": "wix-telemetry-appengine-loggly",
-  "description": "wix-code telemetry sink example for loggly on appengine",
+  "name": "corvid-loggly-telemetry-adapter",
+  "description": "corvid telemetry sink example for loggly on appengine",
   "version": "0.0.1",
   "private": true,
   "repository": {
