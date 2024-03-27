@@ -1,4 +1,4 @@
-# corvid telemetry sink example for loggly on GAE
+# Velo by Wix telemetry sync example for Loggly on GAE
 
 [![Build Status](https://travis-ci.org/wix/corvid-loggly-telemetry-adapter.svg?branch=master)](https://travis-ci.org/wix/corvid-loggly-telemetry-adapter)
 
